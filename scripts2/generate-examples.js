@@ -7,7 +7,7 @@ const iframe = (code) => (`
         width="790"
         height="500"
         frameborder="0"
-        src="https://npmcdn.com/react-native-web-player@1.2.2/index.html#width=250&vendorComponents=${encodeURIComponent(PANZA_SRC)}&code=${encodeURIComponent(code)}"
+        src="https://unpkg.com/react-native-web-player@1.2.2/index.html#width=250&vendorComponents=${encodeURIComponent(PANZA_SRC)}&code=${encodeURIComponent(code)}"
 ></iframe>
   {% endraw %}
 `)
